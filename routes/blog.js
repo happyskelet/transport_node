@@ -58,6 +58,13 @@ router.get('/categories', BlogController.getBlogCategories);
  *   get:
  *     summary: Get All Article List By Category ID
  *     tags: [Blog]
+ *     parameters:
+ *       - name: id
+ *         in: path
+ *         required: true
+ *         schema:
+ *           type: integer
+ *         description: ID категории
  *     responses:
  *       200:
  *         description: Ok

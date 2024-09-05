@@ -104,7 +104,7 @@ const swaggerOptions = {
                 description: 'Контент статьи',
               },
               category_id: {
-                type: 'int',
+                type: 'integer',
                 description: 'Категория статьи',
               },
               category_name: {
